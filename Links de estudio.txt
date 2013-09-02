@@ -1,0 +1,3 @@
+http://www.w3.org/Style/Examples/011/firstcss.es.html
+http://librosweb.es/css/capitulo_1/como_incluir_css_en_un_documento_xhtml.html
+http://elementalcode.net/aprender-lo-basico-de-git-y-github/
