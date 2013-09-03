@@ -1,4 +1,19 @@
-  p { color: black; font-family: Verdana; word-spacing: 4mm;}
-  h1 { color: Red: font-family: Arial; font-size: 19pt}
+ #UnID {
+	margin-left: 2em; 
+	border-top-width: 10px;
+	padding: 2em;
+	border-top-width: 15em;
+	color: blue;
+	}
+ .UnaClass {
+	margin-right: 10em;
+	margin-top:10em;
+	color: rgb(100,45,60);
+	font-size: 12pt;
+ 	margin-left:10em;
+	color: green;
+	}	
+  p {color: black; font-family: Verdana; word-spacing: 4mm;}
+  h1 { color: red;font-family: Arial; font-size: 19pt}
 
   
