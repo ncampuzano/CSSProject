@@ -4,8 +4,6 @@ x.ready(inicializarEventos);
 
 function inicializarEventos()
 {
-	var x;
-	x=$("#UnaPrueba");
 	Prueba();
 }
 function Prueba()
@@ -14,5 +12,6 @@ function Prueba()
         x=$("#UnaPrueba");
         x.css("Color","Green");
         x.css("font-size","30pt");
-        x.css("font-family","Arial");
+        x.css("font-family", "Arial");
+        x.hide();
     }
