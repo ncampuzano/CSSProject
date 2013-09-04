@@ -6,13 +6,13 @@ function inicializarEventos()
 {
 	var x;
 	x=$("#UnaPrueba");
-	x.click(Prueba);
+	Prueba();
 }
-function Prueba();
-{
-	var x;
-	x=$("#UnaPrueba");
-	x.css("Color","Green");
-	x.css("font-size","30pt");
-	x.css("font-family","Arial");
-}
+function Prueba()
+    {
+        var x;
+        x=$("#UnaPrueba");
+        x.css("Color","Green");
+        x.css("font-size","30pt");
+        x.css("font-family","Arial");
+    }
