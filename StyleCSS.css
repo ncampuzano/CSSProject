@@ -4,6 +4,7 @@
 	padding: 2em;
 	border-top-width: 15em;
 	color: blue;
+	float: right;
 	}
  .UnaClass {
 	margin-right: 10em;
@@ -15,7 +16,7 @@
 	position: relative;
 	bottom:10em;
 	}	
-  p {color: black; font-family: Verdana; word-spacing: 4mm;}
+  p {color: black; font-family: Verdana; word-spacing: 4mm; float: left;}
   h1 { color: red;font-family: Arial; font-size: 19pt}
 
   

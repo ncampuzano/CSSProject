@@ -13,5 +13,5 @@ function Prueba()
         x.css("Color","Green");
         x.css("font-size","30pt");
         x.css("font-family", "Arial");
-        x.hide();
+        x.css("float","right")
     }
