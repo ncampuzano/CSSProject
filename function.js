@@ -4,9 +4,15 @@ x.ready(inicializarEventos);
 
 function inicializarEventos()
 {
-	Prueba();
+	var x=$("#CambioText");
+  	x.click(CambiarText);
+	x=$("#HiddenAll");
+	x.click(HiddenAll);
+	x=$("#NotHiddenAll");
+	x.click(NotHiddenAll);
+
 }
-function Prueba()
+function CambiarText()
     {
         var x;
         x=$("#UnaPrueba");
@@ -15,3 +21,19 @@ function Prueba()
         x.css("font-family", "Arial");
         x.css("float","right")
     }
+function HiddenAll()
+{
+	var x;
+	x=$("p");
+	x.css("visibility","hidden");
+	x=$("h1");
+	x.css("visibility","hidden");
+}
+function NotHiddenAll()
+{
+	var x;
+	x=$("p");
+	x.css("visibility","visible");
+	x=$("h1");
+	x.css("visibility","visible");	
+}
